@@ -7,6 +7,6 @@
 
 @echo off
 
-set /p makeThisDirFromTxt=< DirToBuild.txt
+set /p makeThisDirFromTxt=< C:\cmm_libs\batch\DirToBuild.txt
 
 mkdir %makeThisDirFromTxt%
